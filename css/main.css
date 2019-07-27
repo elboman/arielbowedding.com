@@ -1,0 +1,79 @@
+body {
+  color: #669db6;
+  font-size: 15px;
+}
+
+a {
+  color: #669db6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div#content {
+  z-index: 1;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Amatic SC", cursive;
+  margin: 0.37rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  margin: 0.37rem 0;
+  font-size: 1.2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.place {
+  margin: 1.5rem 0;
+}
+
+.hero {
+  max-width: 300px;
+}
+
+.bg-left,
+.bg-right {
+  z-index: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  background-size: 100px;
+  background-repeat: repeat-y;
+  background-position: top left;
+  background-image: url("/img/bg-left.png");
+}
+
+.bg-right {
+  right: 0;
+  left: auto;
+  background-position: top right;
+  background-image: url("/img/bg-right.png");
+}
