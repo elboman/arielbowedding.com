@@ -1,6 +1,7 @@
 body {
   color: #669db6;
   font-size: 15px;
+  padding: 40px;
 }
 
 a {
@@ -76,4 +77,8 @@ p {
   left: auto;
   background-position: top right;
   background-image: url("/img/bg-right.png");
+}
+
+.gift {
+  margin-top: 40px;
 }
